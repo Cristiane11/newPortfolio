@@ -5,6 +5,7 @@ function MyInfo(){
 return(
     <div>
     <h1>Cristiane Abreu</h1>
+    <p>Web Developer</p>
     </div>
 )
 }
