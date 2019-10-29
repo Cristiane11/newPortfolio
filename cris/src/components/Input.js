@@ -6,7 +6,10 @@ function Input() {
    
     
     return (
-      <h1>Good {timeOfDay}!</h1>
+        <div>
+        <input type="checkbox" />
+        <p>Placeholder text here</p>
+        </div>
     )
   }
   export default Input;
