@@ -6,10 +6,12 @@ function Nav(){
         <div>
             <nav>
                 <ul>
+                    <h1>
             <a href ="www.google.com"> Google</a>
             <a href ="www.yahoo.com">Yahoo</a>
             <a href ="#">Yahoo</a>
             <a href ="#">Yahoo</a>
+                    </h1>
                </ul>
             </nav>
             
