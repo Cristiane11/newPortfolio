@@ -3,10 +3,10 @@ import ReactDom from "react-dom";
 
 function Footer(){
     return(
-        <div>
+        <footer>
         <h3>Contact Phone</h3>
         <p>704-891-4329</p>
-        </div>
+        </footer>
     )
     }
     
