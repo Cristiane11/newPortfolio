@@ -2,7 +2,7 @@ import React from "react";
 import ReactDom from "react-dom";
 
 
-function App() {
+function Main() {
     const date = new Date()
     const hours = date.getHours()
     let timeOfDay
@@ -59,6 +59,4 @@ function App() {
           console.log(`Current Time : ${hour}${prepand} : ${minute} : ${second}`);
           
     */
-   
-    
     export default Main;
