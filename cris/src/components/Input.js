@@ -6,7 +6,7 @@ function Input() {
    
     
     return (
-        <div>
+        <div className= "input">
         <input type="checkbox" />
         <p>Placeholder text here</p>
         </div>

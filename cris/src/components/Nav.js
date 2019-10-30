@@ -3,7 +3,7 @@ import ReactDom from "react-dom";
 
 function Nav(){
     return(
-        <div>
+        <div className= "navbar">
             <nav>
                 <ul>
                     <h1>
