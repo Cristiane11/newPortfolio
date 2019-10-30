@@ -7,10 +7,10 @@ function Nav(){
             <nav>
                 <ul>
                     <h1>
-            <a href ="www.google.com"> Google</a>
-            <a href ="www.yahoo.com">Yahoo</a>
-            <a href ="#">Yahoo</a>
-            <a href ="#">Yahoo</a>
+                        <a href ="www.google.com">York</a>
+                        <a href ="www.yahoo.com">Female</a>
+                        <a href ="www.anything.com">Male</a>
+         
                     </h1>
                </ul>
             </nav>
