@@ -12,6 +12,8 @@ code {
     monospace;
 }
 .input{
-  background-color: black;
+  background-color: #B8D1D5;
   font-family: 'Times New Roman', Times, serif;
+  color: 4F7A81;
+  font-size: 24px;
 }
