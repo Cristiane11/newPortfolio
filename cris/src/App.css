@@ -7,6 +7,8 @@ body {
 .contacts {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
+  margin-left: 50px;
 }
 
 .contact-card {
@@ -26,13 +28,6 @@ body {
 .contact-card > p {
   font-size: 12px;
 }
-
-
-
-
-
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

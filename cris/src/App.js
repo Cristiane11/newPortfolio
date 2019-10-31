@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Main/>
+      <hr/>
       <Joke 
       answer={{name:"Cristiane", lastName:"Abreu"}}
       />
@@ -33,6 +34,7 @@ function App() {
           contact={{ imgUrl:"http://i1.wp.com/www.fcspreciousyorkies.com/wp-content/uploads/2013/11/2meshaupdatedfeb14kennelname.jpg?",name:"Project 4", phone:"704-901-6666", email:"anything@verizon.com"}}
       />
       </div>
+      <hr/>
         
       <TodoItem/>
       <TodoItem/>
