@@ -10,6 +10,7 @@ body {
 contacts {
   display: flex;
   flex-wrap: wrap;
+  float: left;
 }
 
 .contact-card {
@@ -46,9 +47,9 @@ contacts {
 }
 
 .navbar {
-  height: 100px;
-  background-color: #333;
-  color: whitesmoke;
+  height: 80px;
+  background-color: #FF54A7;
+  color: #FFFFFF;
   margin-bottom: 15px;
   text-align: center;
   font-size: 30px;
