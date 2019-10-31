@@ -5,14 +5,20 @@ import Nav from "./components/Nav";
 import Main from "./components/Main";
 import TodoItem from "./components/TodoItem";
 import ContactCard from "./components/ContactCard";
+import Joke from "./components/Joke";
+
 
 import './App.css';
 
 function App() {
   return (
-    <div className="contacts">
+    <div className="App">
       <Nav/>
       <Main/>
+      <Joke 
+      answer={{name:"Cristiane", lastName:"Abreu"}}
+      />
+      <div className="contacts">
       <ContactCard
           contact={{imgUrl:"https://www.yorkiepassion.com/wp-content/uploads/2014/06/yorkie-cost-factores-444x593.jpg",name:"Project 1", phone:"704-901-4329", email:"anything@gmail.com"}}
       />
@@ -26,8 +32,8 @@ function App() {
       <ContactCard
           contact={{ imgUrl:"http://i1.wp.com/www.fcspreciousyorkies.com/wp-content/uploads/2013/11/2meshaupdatedfeb14kennelname.jpg?",name:"Project 4", phone:"704-901-6666", email:"anything@verizon.com"}}
       />
-
-      <TodoItem/>
+      </div>
+        
       <TodoItem/>
       <TodoItem/>
       <TodoItem/>

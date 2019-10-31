@@ -4,13 +4,9 @@
 body {
   margin: 0;
 }
-/*.App-logo {
-  height: 40vmin;
-}*/
-contacts {
+.contacts {
   display: flex;
   flex-wrap: wrap;
-  float: left;
 }
 
 .contact-card {
@@ -19,8 +15,8 @@ contacts {
 }
 
 .contact-card > img {
-  width: 350 px;
-  height: auto;
+  width: 100%;
+  height: 330px;
 }
 
 .contact-card > h3 {
@@ -30,6 +26,12 @@ contacts {
 .contact-card > p {
   font-size: 12px;
 }
+
+
+
+
+
+
 
 .App-header {
   background-color: #282c34;
