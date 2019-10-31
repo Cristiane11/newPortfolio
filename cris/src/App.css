@@ -7,6 +7,28 @@ body {
 /*.App-logo {
   height: 40vmin;
 }*/
+contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  flex-basis: 250px;
+  margin: 20px;
+}
+
+.contact-card > img {
+  width: 350 px;
+  height: auto;
+}
+
+.contact-card > h3 {
+  text-align: center;
+}
+
+.contact-card > p {
+  font-size: 12px;
+}
 
 .App-header {
   background-color: #282c34;
