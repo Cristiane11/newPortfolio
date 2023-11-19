@@ -25,7 +25,7 @@ const ProjectsGallary = () => {
   console.log(Projects);
   return (
     <>
-      <div id="projectSection" className="Projects_gallary bg-[#fffbe0] py-10">
+      <div id="projectSection" className="Projects_gallary bg-[#9CCC65] py-10">
         <div className="text-center mb-14">
           <h1 className="text-3xl uppercase">Our Latest Projects</h1>
         </div>

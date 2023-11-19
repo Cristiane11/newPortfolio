@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import cristianeLogo from "../components/images/cristianeLogo.png";
 
 const Navigation = () => {
   const [collaps, setCollaps] = useState(false);
   return (
     <nav className="relative">
-      <div className="bg-[#FBF8F5] py-3">
+      <div className="bg-[#FFF] py-3">
         <div className="container mx-auto flex justify-end">
           <ul className="flex gap-10">
             <li>
@@ -22,12 +23,12 @@ const Navigation = () => {
           </ul>
         </div>
       </div>
-      <div className="py-5 bg-[#FFF79E]">
+      <div className="py-5 bg-[#9CCC65]">
         <div className="container mx-auto flex justify-between items-center">
           <div className="w-60">
             <Link>
               <img
-                src="https://restored316.wpenginepowered.com/wp-content/uploads/2020/09/R316_horizontal.png"
+                src={cristianeLogo}className="App-logo"
                 alt="Logo"
               />
             </Link>

@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <div id="heroSection" className="bg-[#FFFFFF] my-14">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
-        <div className="border border-4 border-[#FFF79E] p-5">
+        <div className="border border-4 border-[#457431] p-5">
           <div>
             <Swiper
               slidesPerView={1}
@@ -64,16 +64,13 @@ const Hero = () => {
         </div>
         <div className="text-center">
           <h1 className="text-3xl mb-8">
-            Attract new customer, and Increase Your Chances of Success
+          Software engineer with a broad mix of experience in full-stack technologies. A teachable and resilient professional.
           </h1>
           <p>
-            Delightful remarkably mr on announcing themselves entreaties
-            favourable. About to in so terms voice at. Equal an would is found
-            seems of. The particular friendship one sufficient terminated
-            frequently themselves...
+          Cristiane is a highly dedicated professional. A Software engineer with a broad mix of experience in full-stack technologies. She is teachable and resilient possessing good interpersonal skills to be a team player.
           </p>
           <div className="mt-8 text-center">
-            <button className="px-10 py-2 bg-[#FFF79E] hover:bg-[#EDCF55]">
+            <button className="px-10 py-2 bg-[#9CCC65] hover:bg-[#9CCC65]" >
               READ MORE
             </button>
           </div>

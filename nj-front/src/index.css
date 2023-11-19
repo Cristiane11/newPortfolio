@@ -10,6 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App-logo {
+  height: 65px;
+  pointer-events: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -25,7 +29,7 @@ code {
 }
 .swiper-button-next,
 .swiper-button-prev {
-  background-color: #fff79e;
+  background-color: #9CCC65;
   font-size: 1rem !important;
   padding: 5px !important;
   border: 2px solid white;
@@ -33,7 +37,7 @@ code {
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  background-color: #edcf55;
+  background-color: #9CCC65;
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {

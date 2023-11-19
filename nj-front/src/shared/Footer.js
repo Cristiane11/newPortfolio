@@ -86,9 +86,9 @@ const Footer = () => {
               </div>
             </div>
             <div className="m-5">
-              <div className="flex flex-col justify-center items-center bg-[#FFF79E] p-10">
+              <div className="flex flex-col justify-center items-center bg-[#9CCC65] p-10">
                 <div className="text-center mb-5">
-                  <h2 className="text-xl mb-4">JOIN RESTORED 316 COMMUNITY</h2>
+                  <h2 className="text-xl mb-4">CRISTIANE PAST PROJECTS</h2>
                   <h1 className="text-2xl">
                     Join a community of like minded women and get all the
                     encouragement and help you need!
