@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family:  'Cormorant Garamond', serif, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13,6 +13,17 @@ body {
 .App-logo {
   height: 65px;
   pointer-events: none;
+}
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight:500;
+  color: #558B2F;
+}
+nav{
+  color: #F5F5F5;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight:700;
+  font-size: 24px;
 }
 
 code {

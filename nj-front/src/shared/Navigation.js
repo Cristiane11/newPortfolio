@@ -64,22 +64,22 @@ const Navigation = () => {
           )}
           <div className="hidden md:block">
             <ul className="flex gap-5 lg:gap-10">
-              <li className="text-[#000000]">
+              <li className="text-[#457431]">
                 <Link to="/">Home</Link>
               </li>
-              <li className="text-[#000000]">
+              <li className="text-[#457431]">
                 <Link to="/about">About</Link>
               </li>
-              <li className="text-[#000000]">
+              <li className="text-[#457431]">
                 <Link to="/">Services</Link>
               </li>
-              <li className="text-[#000000]">
+              <li className="text-[#457431]">
                 <Link to="/">Projects</Link>
               </li>
-              <li className="text-[#000000]">
+              <li className="text-[#457431]">
                 <Link to="/">Contact Us</Link>
               </li>
-              <li className="text-[#000000]">
+              <li className="text-[#457431]">
                 <Link to="/">Blog</Link>
               </li>
             </ul>
